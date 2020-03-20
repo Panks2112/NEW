@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .flex 
+        {
+            
+            display:flex;
+            flex-direction: column;
+            background-color: cornflowerblue;
+        }
+        .flex > div
+        {
+           border: 2px solid black;
+           float:right;
+           margin:10px;
+           padding: 20px;
+        }
+        .p1
+        {
+            background-color: darkgoldenrod;
+            height: 100px;
+            width:400px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="flex">
+        <p><h1>This is Flex Demo.</h1></p>
+        <div class="p1">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    
+</body>
+</html>

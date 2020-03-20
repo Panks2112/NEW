@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+      
+<body>
+    <div class="Flex">
+    <div class="d1">
+       <h1 class="h1">Sign Up</h1>
+       <hr>
+       <span class="s1">Your User Name</span> <br>
+       <input class="t1" type="text" value="My User Name 690" required><br><br>
+       <span class="s1">Your Email ID</span><br>
+       <input class="t1"type="Email" value="Enter Your EmailID" required><br><br>
+       <span class="s1">Your Password</span><br>
+       <input class="t1"type="password" value="Enter Your password" required><br><br>
+       <span class="s1">Your Confirm Password</span><br>
+       <input class="t1"type="password" value="Enter Your comfirm password" required><br><br>
+       <!-- <button type="button" class="btn btn-primary b2 b1">Sign Up</button> -->
+       <input  class="b1"  onclick=B1Function() type="button" value="Sign-up">
+       <script>
+        function B1Function()
+         {
+           window.location.href="https://www.w3schools.com/js/js_strings.asp";
+        }
+    </script>
+       <div class="d2">
+           <h class="h">Already Member?</h>
+           <button type="button" onclick=myFunction() class="btn btn-primary b2">Go And Login</button>
+           <script>
+            function myFunction()
+             {
+               window.location.href="https://www.google.com/";
+             }
+        </script>
+           <!-- <input class="b2" type="button" value="Go and Log in"> -->
+       </div>
+    </div> 
+    </div>
+</body>
+</html>
