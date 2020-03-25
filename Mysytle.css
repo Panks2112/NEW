@@ -1,0 +1,124 @@
+.flex 
+ {
+   display:flex;
+            flex-direction:row;
+            overflow: hidden;
+            margin-top:25px;
+            justify-content: center;
+            /* /height:200px;   */
+        }
+        .flex > div
+        {
+           border: 1px solid gray;
+           border-radius: 5px;
+           float:right;
+           margin-left:100px;
+           height:400px;
+           width:325px;
+        }
+ .pt
+ {
+   font-size: x-large;
+   color: gainsboro;
+   text-align:center ;
+ }
+ .pp
+ {
+   font-size:large;
+   color: green;
+ }
+.demo
+{
+  font-size: small;
+   overflow: auto;
+}
+.se
+{
+  width: 50px;
+  margin-top: 5px;
+}
+.i
+{
+  height:225px;
+  width:250px;
+  border-radius: 20px;
+  padding:10px;
+  margin-left:40px;
+}
+.tt
+{
+  padding-bottom: 10px;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?i98tvf');
+  src:  url('../fonts/icomoon.eot?i98tvf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?i98tvf') format('truetype'),
+    url('../fonts/icomoon.woff?i98tvf') format('woff'),
+    url('../fonts/icomoon.svg?i98tvf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak:none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-search:before {
+  content: "\e986";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blue;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .s
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:lightblue;
+  }
+  
+  .active {
+    background-color:lightblue;
+  }
